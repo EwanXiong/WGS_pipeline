@@ -1,10 +1,8 @@
 ####=================================================set.dir===================================================####
-file_name=/opt/tsinghua/NuoHe/WGS_23.6.1/shell1/name.txt
-input=/opt/tsinghua/NuoHe/WGS_23.6.1/rawdata
-output=/opt/tsinghua/NuoHe/WGS_23.6.1/output1
-#match=/opt/tsinghua/NuoHe/WES_23.6.5/shell/match.txt
+file_name=filename.txt
+input=/opt/tsinghua/NuoHe/WGS/rawdata
+output=/opt/tsinghua/NuoHe/WGS/output
 align=/opt/tsinghua/cfDNApipeTest/file/hg19/bwa
-#align=/opt/tsinghua/cfDNApipeTest/file/hg38/bwa
 gatk_vcf=/opt/tsinghua/cfDNApipeTest/file/vcf
 pon_hg19_wes=/opt/tsinghua/cfDNApipeTest/file/vcf/pon/somatic-hg19_Mutect2-exome-panel.vcf.gz
 pon_hg19_wgs=/opt/tsinghua/cfDNApipeTest/file/vcf/pon/somatic-hg19_Mutect2-WGS-panel.vcf.gz
